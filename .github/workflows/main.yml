@@ -23,6 +23,8 @@ jobs:
           npm run build
       - name: Next Pages
         uses: anorcle/next-pages@v1.0
+      - name: Create No Jekyll
+        run: touch ./out/_next/.nojekyll
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"

@@ -25,7 +25,7 @@ jobs:
         uses: anorcle/next-pages@v1.0
       - name: Create No Jekyll
         run: |
-          ls
+          ls docs
           touch docs/_next/.nojekyll
       - name: Commit and push changes
         run: |

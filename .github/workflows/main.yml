@@ -24,9 +24,7 @@ jobs:
       - name: Next Pages
         uses: anorcle/next-pages@v1.0
       - name: Create No Jekyll
-        run: |
-          ls docs
-          touch docs/_next/.nojekyll
+        run: touch docs/next/.nojekyll
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"

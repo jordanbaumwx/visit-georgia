@@ -1,9 +1,12 @@
 {
+  "name": "visit-georgia",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.3.4",

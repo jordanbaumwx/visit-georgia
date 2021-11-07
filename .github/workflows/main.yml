@@ -24,11 +24,13 @@ jobs:
       - name: Next Pages
         uses: anorcle/next-pages@v1.0
       - name: Create No Jekyll
-        run: touch ./out/_next/.nojekyll
+        run: |
+          ls
+          touch out/_next/.nojekyll
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "coding@jordanbaumgardner.com"
           git add -A
-          git commit -m "Automatic build of pages."
+          git commit -m "Automatic build for pages."
           git push

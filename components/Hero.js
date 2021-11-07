@@ -1,3 +1,5 @@
+import Subscribe from "../components/Subscribe";
+
 const Hero = () => {
   return (
     <div className="absolute inset-0 flex justify-center items-center">
@@ -13,6 +15,8 @@ const Hero = () => {
           and live. These are your moments waiting to happen. So, get Ready.
           Set. Georgia.
         </p>
+
+        <Subscribe />
       </div>
     </div>
   );

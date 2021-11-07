@@ -26,7 +26,7 @@ jobs:
       - name: Create No Jekyll
         run: |
           ls
-          touch out/_next/.nojekyll
+          touch docs/_next/.nojekyll
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"

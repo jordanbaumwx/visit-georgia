@@ -1,5 +1,5 @@
 import Head from "next/head";
-
+import Hero from "../components/Hero";
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
@@ -13,6 +13,7 @@ export default function Home() {
           alt="main background image"
           className="absolute inset-0 w-full h-full object-cover"
         />
+        <Hero />
       </main>
     </div>
   );

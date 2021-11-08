@@ -4,8 +4,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      backgroundImage: (theme) => ({
-        dunes: "url('/falldrive.jpg')",
+      backgroundImage: (_) => ({
+        falldrive: "url('/falldrive.jpg')",
       }),
     },
   },

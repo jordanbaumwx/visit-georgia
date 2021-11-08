@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Hero from "../components/Hero";
 
-import fallDrive from "../public/falldrive.jpg";
+import image from "../public/falldrive.jpg";
 
 import Image from "next/image";
 
@@ -14,9 +14,9 @@ export default function Home() {
       </Head>
       <main className="relative h-screen w-screen">
         <Image
-          src={fallDrive}
-          alt="A picture of a road through trees with fall colors."
-          className="absolute inset-0 w-full h-full object-cover"
+          src={image}
+          alt="Picture of a road through trees with fall colors."
+          className="absolute inset-0 w-screen h-screen object-cover"
         />
         <Hero />
       </main>

@@ -12,12 +12,7 @@ export default function Home() {
         <title>Visit Georgia</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="relative h-screen w-screen">
-        <Image
-          src={image}
-          alt="Picture of a road through trees with fall colors."
-          className="absolute inset-0 w-screen h-screen object-cover"
-        />
+      <main className="w-full h-screen bg-dunes bg-cover bg-center">
         <Hero />
       </main>
     </div>

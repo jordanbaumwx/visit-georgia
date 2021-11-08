@@ -16,7 +16,7 @@ export default function Home() {
         <Image
           src={image}
           alt="Picture of a road through trees with fall colors."
-          className="absolute inset-0 w-screen h-screen object-fill"
+          className="absolute inset-0 w-screen h-screen object-cover"
         />
         <Hero />
       </main>

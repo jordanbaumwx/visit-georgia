@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <main className="relative h-screen w-screen">
         <img
-          src={fallDrive}
+          src={"/falldrive.jpg"}
           alt="A picture of a road through trees with fall colors."
           className="absolute inset-0 w-full h-full object-cover"
         />

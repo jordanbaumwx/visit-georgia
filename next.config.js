@@ -1,8 +1,6 @@
-const isProd = process.env.NODE_ENV === "production";
+const basePath = process.env.NODE_ENV === "production" ? "/visit-georgia" : "";
 
 module.exports = {
-  // Use the CDN in production and localhost for development.
-  assetPrefix: isProd
-    ? "https://cdn.statically.io/gh/jordanbaumwx/jordanbaumwx.github.io/visit-georgia/"
-    : "",
+  basePath,
+  assetPrefix: `${basePath}/`,
 };
